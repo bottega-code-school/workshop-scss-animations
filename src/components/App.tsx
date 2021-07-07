@@ -5,9 +5,7 @@ import Layout from "./Layout";
 const App = () => {
   return (
     <Layout>
-      <div className="fade-in">
-        <HorizontalTree width={1200} height={400} />
-      </div>
+      <HorizontalTree width={1200} height={400} />
     </Layout>
   );
 };
